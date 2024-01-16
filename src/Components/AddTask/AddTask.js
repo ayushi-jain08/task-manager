@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 
 const AddTask = () => {
-  const { addTask, task } = useTaskContext();
+  const { addTask } = useTaskContext();
   const [taskName, setTaskName] = useState("");
   const navigate = useNavigate();
 
