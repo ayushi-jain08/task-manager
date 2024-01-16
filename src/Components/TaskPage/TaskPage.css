@@ -1,0 +1,29 @@
+.main {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background: white;
+  max-width: 65vw;
+  margin: 50px auto;
+  color: black;
+  padding: 25px 20px;
+  border-radius: 5px;
+}
+.task-container {
+  margin-top: 30px;
+  background-image: url("../../Images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.task-container h2 {
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+@media screen and (max-width: 900px) {
+  .main {
+    max-width: 97vw;
+    padding: 25px 5px;
+  }
+}

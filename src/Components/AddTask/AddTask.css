@@ -1,0 +1,63 @@
+.add-task-form {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background: white;
+  max-width: 45vw;
+  margin: 50px auto;
+  color: black;
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+.add-task-form h2 {
+  text-align: center;
+  font-family: "Salsa", cursive;
+  font-weight: 600;
+}
+.add-task-form > div {
+  width: 100%;
+}
+.form-control {
+  width: 100%;
+  margin-top: 25px;
+}
+.form-control input {
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 7px 10px;
+  margin-top: 8px;
+}
+.form-control input:focus {
+  border: 1.5px solid orange;
+  outline: none;
+}
+.form-control label {
+  font-family: "EB Garamond", serif;
+}
+.form-control input::placeholder {
+  font-family: "Salsa", cursive;
+  color: rgb(146, 145, 145);
+}
+.add-task-create-btn {
+  border: none;
+  font-family: "PT Serif", serif;
+  outline: none;
+  width: 80px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(252, 144, 104);
+  font-size: 19px;
+  font-family: "EB Garamond", serif;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.add-task-create-btn:active {
+  transform: scale(1.07);
+}
+@media screen and (max-width: 900px) {
+  .add-task-form {
+    max-width: 97vw;
+  }
+}

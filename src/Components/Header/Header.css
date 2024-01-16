@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 28px;
+}
+.add-btn a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.add-btn a svg {
+  font-size: 24px;
+}
+.add-btn {
+  border: none;
+  outline: none;
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: rgb(252, 144, 104);
+  font-size: 19px;
+  font-family: "EB Garamond", serif;
+  transition: all 0.3s ease-in-out;
+}
+.add-btn:active {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+}
+.header h1 {
+  font-size: 20px;
+}
+.add-btn {
+  font-size: 14px;
+  padding: 6px;
+}
+.add-btn a svg {
+  font-size: 22px;
+}

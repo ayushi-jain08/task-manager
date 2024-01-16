@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=EB+Garamond:wght@600&family=PT+Serif:wght@700&family=Playfair+Display:wght@500;600&family=Salsa&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* font-family: 'Bungee Spice', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Salsa', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: rgb(238, 241, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 241, 150, 0.5963177507331057) 0%,
+    rgba(246, 112, 15, 0.6439367983521533) 35%,
+    rgba(247, 122, 122, 0.2545810560552346) 100%
+  );
 }

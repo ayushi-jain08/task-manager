@@ -1,0 +1,91 @@
+.task-table {
+  margin-top: 20px;
+  background: rgb(238, 241, 150);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 138, 93, 0.947) 0%,
+    rgba(246, 112, 15, 0.7439367983521533) 35%,
+    rgba(255, 108, 108, 0.755) 100%
+  );
+  color: white;
+  border-radius: 10px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+}
+.empty-task {
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: "Salsa", cursive;
+  text-align: center;
+  font-weight: 600;
+}
+.task-box-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-box-inner h3 {
+  font-size: 22px;
+  font-family: "PT Serif", serif;
+  text-transform: capitalize;
+}
+.group-btn {
+  display: flex;
+  align-items: center;
+}
+.task-box-inner p {
+  font-family: "Salsa", cursive;
+  margin-top: 7px;
+  font-size: 13px;
+  color: rgb(76, 75, 75);
+}
+.group-btn button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  margin-top: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.group-btn button:active {
+  transform: scale(1.1);
+  background-color: black;
+  border-radius: 50%;
+}
+.check-icon {
+  font-size: 18px;
+  color: white;
+}
+.cross-icon {
+  font-size: 18px;
+  color: white;
+}
+.delete-icon {
+  font-size: 22px;
+  color: white;
+}
+@media screen and (max-width: 900px) {
+  .task-table {
+    margin: 15px 5px;
+  }
+  .empty-task {
+    font-size: 25px;
+  }
+  .task-box-inner h3 {
+    font-size: 20px;
+  }
+  .task-box-inner p {
+    font-size: 12px;
+  }
+  .check-icon {
+    font-size: 16px;
+  }
+  .cross-icon {
+    font-size: 16px;
+    color: white;
+  }
+  .delete-icon {
+    font-size: 20px;
+    color: white;
+  }
+}
